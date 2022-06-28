@@ -1,7 +1,6 @@
 // code your solution here
-function superbowlWin(arrayTesting){
-let winning = (arrayTesting) => arrayTesting.result === 'W';
-let ushindi =  arrayTesting.find(winning)  
+function superbowlWin(arrayTesting){ 
+let ushindi =  arrayTesting.find((winningFinder) => winningFinder.result === 'W')
 if (ushindi)
 {
     return ushindi.year
